@@ -1,16 +1,12 @@
 import React from 'react'
-
-const styles = {
-    container: {
-        color: '#D5D5D5'
-    }
-}
+import './UserField.css'
 
 const UserField = ({type, value}) => {
+
     return (
-        <div style={styles.container}>
-            <span>{type} </span>
-            <span>{value}</span>
+        <div>
+            <span className="typeSpan">{type}</span>
+            <span className="valueSpan">{value}</span>
         </div>)
 }
 

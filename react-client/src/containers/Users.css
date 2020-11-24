@@ -1,0 +1,8 @@
+.Users {
+    border-radius: 12px;
+    background-color: #B7533D;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
