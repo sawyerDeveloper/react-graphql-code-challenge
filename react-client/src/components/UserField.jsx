@@ -2,7 +2,6 @@ import React from 'react'
 import './UserField.css'
 
 const UserField = ({type, value}) => {
-
     return (
         <div>
             <span className="typeSpan">{type}</span>
